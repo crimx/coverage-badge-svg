@@ -1,6 +1,6 @@
 {
   "name": "coverage-badge-svg",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create SVG badges from code coverage reports, with support for monorepo.",
   "repository": "crimx/coverage-badge-svg",
   "type": "module",
