@@ -39,13 +39,13 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^24.1.0",
+    "@types/node": "^24.2.1",
     "@wopjs/disposable": "^0.1.19",
-    "@wopjs/eslint-config": "^0.1.32",
+    "@wopjs/eslint-config": "^0.1.35",
     "commit-and-tag-version": "^12.5.2",
-    "eslint": "^9.31.0",
+    "eslint": "^9.33.0",
     "prettier": "^3.6.2",
-    "typedoc": "^0.28.7",
+    "typedoc": "^0.28.10",
     "vitest": "^3.2.4"
   },
   "dependencies": {
