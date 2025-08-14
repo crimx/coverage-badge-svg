@@ -12,7 +12,13 @@ Create SVG badges from code coverage reports, with support for monorepo.
 
 ## Usage
 
-Generate coverage with `json-summary` reporter enabled. For example, with [vitest](https://vitest.dev/guide/reporters) `vitest --coverage.enabled --coverage.reporter='json-summary'`.
+Generate coverage with `json-summary` reporter enabled. For example, with [vitest](https://vitest.dev/guide/reporters):
+
+```bash
+vitest --coverage.enabled --coverage.reporter='json-summary'
+```
+
+### CLI Usage
 
 ```bash
 npx coverage-badge-svg --out ./docs/coverage
