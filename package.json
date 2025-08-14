@@ -1,0 +1,56 @@
+{
+  "name": "coverage-badge-svg",
+  "version": "0.0.1",
+  "description": "Generate SVG charts of minimized sizes for selected exports.",
+  "repository": "crimx/coverage-badge-svg",
+  "main": "./lib/main.mjs",
+  "module": "./lib/main.mjs",
+  "types": "./lib/main.d.ts",
+  "type": "module",
+  "bin": "./lib/cli.mjs",
+  "sideEffects": false,
+  "files": [
+    "lib"
+  ],
+  "author": {
+    "name": "CRIMX",
+    "email": "straybugs@gmail.com",
+    "url": "https://github.com/crimx/"
+  },
+  "scripts": {
+    "lint": "eslint && prettier --check .",
+    "lint:fix": "eslint --fix && prettier --write .",
+    "demo": "vitest run --coverage.enabled --coverage.reporter='json-summary' --coverage.include='demo/**/*.js' && node ./lib/cli.mjs",
+    "docs": "typedoc --options typedoc.json && prettier --ignore-path .prettierignore --write docs",
+    "release": "commit-and-tag-version"
+  },
+  "keywords": [
+    "coverage",
+    "badge",
+    "svg",
+    "code coverage",
+    "report",
+    "cli",
+    "chart",
+    "minimized size",
+    "exports",
+    "javascript",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "@wopjs/disposable": "^0.1.19",
+    "@wopjs/eslint-config": "^0.1.32",
+    "commit-and-tag-version": "^12.5.2",
+    "eslint": "^9.31.0",
+    "prettier": "^3.6.2",
+    "typedoc": "^0.28.7",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "badgen": "^3.2.3",
+    "fast-glob": "^3.3.3",
+    "sade": "^1.8.1"
+  }
+}

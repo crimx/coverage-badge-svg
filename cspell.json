@@ -1,0 +1,37 @@
+{
+  "language": "en",
+  "words": [
+    "badgen",
+    "computeds",
+    "coverallsapp",
+    "CRIMX",
+    "embra",
+    "embrajs",
+    "endregion",
+    "flac",
+    "hyrious",
+    "labelledby",
+    "lcov",
+    "Neue",
+    "Parens",
+    "pnpm",
+    "preinstall",
+    "Segoe",
+    "treeshake",
+    "tsup",
+    "typedoc",
+    "unmark",
+    "vite",
+    "vitest",
+    "wopjs",
+    "yoctocolors"
+  ],
+  "ignorePaths": [
+    "**/coverage/**",
+    "**/node_modules/**",
+    "**/dist/**",
+    "cspell.config.js",
+    "pnpm-lock.yaml",
+    "CHANGELOG.md"
+  ]
+}
