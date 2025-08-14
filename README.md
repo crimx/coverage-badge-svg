@@ -6,7 +6,9 @@ Create SVG badges from code coverage reports, with support for monorepo.
 [![Build Status](https://github.com/crimx/coverage-badge-svg/actions/workflows/build.yml/badge.svg)](https://github.com/crimx/coverage-badge-svg/actions/workflows/build.yml)
 [![npm-version](https://img.shields.io/npm/v/coverage-badge-svg.svg)](https://www.npmjs.com/package/coverage-badge-svg)
 
-![demo](https://embra.github.io/coverage-badge-svg/coverage-badges/coverage-badge-svg.svg)
+## Example
+
+![demo](https://raw.githubusercontent.com/crimx/coverage-badge-svg/refs/heads/gh-pages/coverage-badges/coverage-badge-svg.svg)
 
 ## Usage
 
