@@ -1,0 +1,51 @@
+{
+  "name": "coverage-badge-svg",
+  "version": "0.0.0",
+  "description": "Create SVG badges from code coverage reports, with support for monorepo.",
+  "repository": "crimx/coverage-badge-svg",
+  "type": "module",
+  "bin": "./lib/cli.mjs",
+  "sideEffects": false,
+  "files": [
+    "lib"
+  ],
+  "author": {
+    "name": "CRIMX",
+    "email": "straybugs@gmail.com",
+    "url": "https://github.com/crimx/"
+  },
+  "scripts": {
+    "lint": "eslint && prettier --check .",
+    "lint:fix": "eslint --fix && prettier --write .",
+    "demo": "vitest run --coverage.enabled --coverage.reporter='json-summary' --coverage.include='demo/**/*.js' && node ./lib/cli.mjs",
+    "release": "commit-and-tag-version"
+  },
+  "keywords": [
+    "coverage",
+    "badge",
+    "svg",
+    "code coverage",
+    "report",
+    "cli",
+    "chart",
+    "minimized size",
+    "exports",
+    "javascript",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "@vitest/coverage-v8": "^3.2.4",
+    "@wopjs/eslint-config": "^0.1.32",
+    "commit-and-tag-version": "^12.5.2",
+    "eslint": "^9.31.0",
+    "prettier": "^3.6.2",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "badgen": "^3.2.3",
+    "fast-glob": "^3.3.3",
+    "sade": "^1.8.1"
+  }
+}
