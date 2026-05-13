@@ -20,7 +20,7 @@ jobs:
 
       - name: Lint 🧹
         run: |
-          npm run lint
+          npm run lint:ci
 
       - name: Generate SVG badges 📊
         run: npm run demo
