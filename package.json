@@ -36,9 +36,9 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@biomejs/biome": "^2.4.13",
-    "@types/node": "^25.7.0",
-    "@vitest/coverage-v8": "^4.1.6",
+    "@biomejs/biome": "^2.4.16",
+    "@types/node": "^25.9.1",
+    "@vitest/coverage-v8": "^4.1.7",
     "commit-and-tag-version": "^12.5.2",
     "vitest": "^4.1.6"
   },
